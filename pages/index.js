@@ -60,7 +60,7 @@ function Titulo(props) {
 // export default HomePage
 
 export default function PaginaInicial() {
-  const username = 'peas';
+  const username = 'Augusto';
 
   return (
     <>
@@ -68,8 +68,8 @@ export default function PaginaInicial() {
       <Box
         styleSheet={{
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          backgroundColor: appConfig.theme.colors.primary[500],
-          backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+          backgroundColor: appConfig.theme.colors.primary[100],
+          backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/09/eiffel-tower-seen-from-the-seine-river.jpg)',
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
         }}
       >
@@ -96,7 +96,7 @@ export default function PaginaInicial() {
               width: { xs: '100%', sm: '50%' }, textAlign: 'center', marginBottom: '32px',
             }}
           >
-            <Titulo tag="h2">Boas vindas de volta!</Titulo>
+            <Titulo tag="h2">Sejam bem vindos!</Titulo>
             <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
               {appConfig.name}
             </Text>
@@ -114,13 +114,13 @@ export default function PaginaInicial() {
             />
             <Button
               type='submit'
-              label='Entrar'
+              label='Viajar'
               fullWidth
               buttonColors={{
                 contrastColor: appConfig.theme.colors.neutrals["000"],
                 mainColor: appConfig.theme.colors.primary[500],
-                mainColorLight: appConfig.theme.colors.primary[400],
-                mainColorStrong: appConfig.theme.colors.primary[600],
+                mainColorLight: appConfig.theme.colors.primary[800],
+                mainColorStrong: appConfig.theme.colors.primary[900],
               }}
             />
           </Box>
@@ -145,16 +145,16 @@ export default function PaginaInicial() {
           >
             <Image
               styleSheet={{
-                borderRadius: '50%',
+                borderRadius: '10%',
                 marginBottom: '16px',
               }}
-              src={`https://github.com/${username}.png`}
+              src={`https://github.com/augustoalvesper.png`}
             />
             <Text
               variant="body4"
               styleSheet={{
                 color: appConfig.theme.colors.neutrals[200],
-                backgroundColor: appConfig.theme.colors.neutrals[900],
+                backgroundColor: appConfig.theme.colors.neutrals[999],
                 padding: '3px 10px',
                 borderRadius: '1000px'
               }}
